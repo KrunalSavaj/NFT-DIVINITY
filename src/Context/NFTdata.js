@@ -12,10 +12,10 @@ import {
     useWeb3ModalState,
 } from "@web3modal/ethers/react";
 
+import { reducer, initialState } from "../Hooks/reducerHook";
+import { uploadFileToIPFS, uploadJSONToIPFS } from "../FetchData/pinata";
 import { GetIpfsUrlFromPinata } from "../FetchData/utils";
 import MarketplaceJSON from "../FetchData/Marketplace.json";
-import { uploadFileToIPFS, uploadJSONToIPFS } from "../FetchData/pinata";
-import { reducer, initialState } from "../Hooks/reducerHook";
 
 const nftContext = createContext();
 
