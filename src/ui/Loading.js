@@ -2,8 +2,8 @@ import { createPortal } from "react-dom";
 import { BeatLoader } from "react-spinners";
 import { useNFTdata } from "../Context/NFTdata";
 
-function  Loading({isTrue = false}) {
-    const { state  } = useNFTdata();
+function Loading({ isTrue = false }) {
+    const { state } = useNFTdata();
 
     return (
         <>

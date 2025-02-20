@@ -237,8 +237,8 @@ export function reducer(state, action) {
                 ...state,
                 selectMulNFT: state.selectMulNFT.includes(action.payload)
                     ? state.selectMulNFT.filter(
-                          (oneNft) => oneNft !== action.payload
-                      )
+                        (oneNft) => oneNft !== action.payload
+                    )
                     : [...state.selectMulNFT, action.payload],
             };
         }
