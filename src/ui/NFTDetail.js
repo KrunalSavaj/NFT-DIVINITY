@@ -32,9 +32,8 @@ function NFTDetail() {
             </div>
             <div className={`flex flex-col`}>
                 <div
-                    className={`bg-[#fff] h-16 flex items-center text-[#727272] justify-between p-7 border-b rounded-lg cursor-pointer ${
-                        dropDown == true ? "rounded-b-none" : ""
-                    }`}
+                    className={`bg-[#fff] h-16 flex items-center text-[#727272] justify-between p-7 border-b rounded-lg cursor-pointer ${dropDown == true ? "rounded-b-none" : ""
+                        }`}
                     onClick={() => setDropDown((e) => !e)}
                 >
                     <div className="flex gap-3  font-extrabold text-xl">
@@ -50,9 +49,8 @@ function NFTDetail() {
                     </div>
                 </div>
                 <div
-                    className={`bg-white mb-8 rounded-b-lg ${
-                        dropDown == true ? "visible " : "invisible"
-                    }`}
+                    className={`bg-white mb-8 rounded-b-lg ${dropDown == true ? "visible " : "invisible"
+                        }`}
                 >
                     <div className="grid grid-cols-5 border-b gap-5 justify-items-center p-1 text-[#9e9d9d] text-lg drop-shadow select-none">
                         <h1>Price</h1>

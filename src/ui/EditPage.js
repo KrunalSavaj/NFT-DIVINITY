@@ -51,7 +51,7 @@ function EditPage() {
                     </div>
 
                     <button
-                         disabled={state.isLoading || state.isMinLoading}
+                        disabled={state.isLoading || state.isMinLoading}
                         onClick={() => unlistNFT(state.tokenId)}
                         className="w-3/4 p-5 rounded-lg bg-[#E74C3C] hover:bg-[#C0392B] text-[#ffffffab] hover:text-[#ffff]  mb-7 text-xl"
                     >
